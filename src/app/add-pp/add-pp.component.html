@@ -1,0 +1,51 @@
+<div class="container my-container">
+    <div class="card-body">
+        <form class="login100-form validate-form" >
+            <div class="mb-3">
+                <input type="text" class="form-control"  placeholder="DEVISE">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control"  placeholder="Date Dernier Crédit">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control"  placeholder="Date Darnier Debit">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control"  placeholder="Type Client">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control"  placeholder="Prenon">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control"  placeholder="Nom">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control"  placeholder="Nationalité">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control"  placeholder="NNI">
+            </div>
+            <div class="mb-3">
+            <input type="file" (change)="onFileSelected($event)" accept=".pdf, .doc, .docx">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control"  placeholder="Cart De Sejour">
+            </div>
+            <div class="mb-3 d-flex justify-content-between">
+                
+                <div class="container-login100-form-btn">
+    
+                <button type="submit" class="login100-form-btn" >
+                    <i class="fas fa-check"></i> &nbsp;
+                    <span >Enregistrer</span>
+                    <!-- <span *ngIf="!loginInProgress">Enregistrer</span>
+                    <mat-progress-spinner *ngIf="loginInProgress" class="mat-spinner-color" mode="indeterminate" style="width: 20px;height: 20px; margin:auto;">
+                    </mat-progress-spinner> -->
+                </button>
+                </div>
+            </div>
+        </form>
+        <!-- <div *ngIf="showErrorMessage"> -->
+        <!-- </div>  -->
+    </div>
+    </div>
